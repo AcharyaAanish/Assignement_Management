@@ -1,0 +1,60 @@
+.login {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+.login .login-form {
+    width: 250px;
+    height: 280px;
+    background-color: #e8e8e8;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+.login .login-form .login-label {
+    color: #424242;
+    font-size: 12px;
+}
+.login .login-form .login-input {
+    height: 34px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 240px;
+    margin: 10px 0px 10px 0px;
+    padding-left: 10px;
+}
+.login .login-form .login-check {
+    cursor: pointer;
+}
+.login .login-form .login .login-remember {
+    font-size: 16px;
+    color: #212121;
+}
+.login .login-form .login-button {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 38px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 8px;
+    margin: 20px 0px 15px 0px;
+    background-color: #141414;
+    cursor: pointer;
+}
+.login .login-form .login-button:hover {
+    border: 2px solid #141414;
+    color: #141414;
+    background-color: #e8e8e8;
+    height: 38px;
+}
+.login .login-form .login-password-forgot {
+    text-decoration: none;
+    color: #434544;
+}
+.login .login-form .login-password-forgot:hover {
+    text-decoration: underline;
+    color: #597567;
+}

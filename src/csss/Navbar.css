@@ -1,0 +1,74 @@
+.navbar {
+    width:200px;
+    background-color: #2b2b2a;
+    margin: 0px;
+    height: 100%;
+    float: left;
+    position: fixed;
+    overflow: hidden;
+}
+.navbar .list-items {
+    display: block;
+}
+.navbar .image-div {
+    margin-left: -40px;
+}
+.navbar .image-div .header {
+    margin: 0px 0px -25px 15px;
+    height: 80%;
+    width: 80%;
+}
+.navbar .list-items .dash-list {
+    list-style-type: none;
+}
+.navbar .list-items .dash-list .dash-items {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 10px 0px 20px -30px;
+}
+.navbar .list-items .dash-list .dash-items:hover {
+    background-color: #858483;  
+}
+.navbar .list-items .dash-list .icons {
+    height: 22px;
+    width: 22px;
+}
+.navbar .list-items .dash-list  .dash-items .header {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 350;
+    margin-top: -10px;
+}
+.navbar .list-items .dash-list .dash-items .dropdown {
+    background-color: #2b2b2a;
+    margin-left: -5px;
+    color: #ffffff;
+    font-size: 24px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+.navbar .list-items .dash-list .dash-items .dropdown:hover {
+    background-color: #858483;
+}
+.navbar .list-items .dash-list .dash-items .content {
+    display: none;
+}
+.navbar .list-items .dash-list .dash-items .content-active {
+    margin: 10px 0px 0px 10px;
+    position: absolute;
+    background-color: #2b2b2a;
+    width: 13%;
+}
+.navbar .list-items .dash-list .dash-items .content-active a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2b2b2a;
+    margin-left: -12px;
+    font-size: 24px;
+}
+.navbar .list-items .dash-list .dash-items .content-active a:hover {
+    color: #858483;
+}

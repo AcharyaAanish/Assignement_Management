@@ -1,0 +1,45 @@
+.forget-password {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+.forget-password .forget-form {
+    width: 250px;
+    height: 150px;
+    background-color: #e8e8e8;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+.forget-password .forget-form .forget-label {
+    color: #424242;
+    font-size: 12px;
+}
+.forget-password .forget-form .forget-input {
+    height: 34px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 240px;
+    margin: 10px 0px 10px 0px;
+    padding-left: 10px;
+}
+.forget-password .forget-form .forget-button {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 38px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 8px;
+    margin: 20px 0px 15px 0px;
+    background-color: #141414;
+    cursor: pointer;
+}
+.forget-password .forget-form .forget-button:hover {
+    border: 2px solid #141414;
+    color: #141414;
+    background-color: #e8e8e8;
+    height: 38px;
+}

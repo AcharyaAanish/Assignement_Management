@@ -1,0 +1,13 @@
+.handle-body{
+    height: 500px;
+    width:1000px;
+    left:20%;
+    top:15%;
+    position: absolute;
+    background-color:rgba(178, 180, 179, 0.945);
+}
+
+.handle-body:hover{
+    box-shadow: 0px 0px 5px 1px rgba(136, 136, 136, 0.986);
+    border: 0 solid;
+}

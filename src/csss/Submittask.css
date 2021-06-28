@@ -1,0 +1,62 @@
+.submittask-body{
+    background-color: rgba(178, 180, 179, 0.945);
+    height: 400px;
+    width: 450px;
+    position: absolute;
+    top:25%;
+    left:40%;
+}
+
+.submittask-body .submittask-form{
+   padding: 2px 5px 2px 5px;
+   text-align: center;
+}
+.submittask-body:hover{
+    box-shadow: 0px 0px 5px 1px rgba(136, 136, 136, 0.986);
+    border: 0 solid;
+ }
+ .submittask-body .submittask-form .submittask-header{
+    padding: 5px 5px 5px 5px; 
+ }
+
+.submittask-body .submittask-form .submittask-header .submittask-logo{
+    height:40px;
+    width:50px;
+    margin-top:0px;
+    float :left;   
+}
+
+.submittask-body .submittask-form .submittask-header p.head-title{
+    font-weight: 900;
+    text-align: center;
+}
+
+.submittask-body .submittask-form .submittask-input{
+    height: 30px;
+    width:400px;
+    margin-top: 10px;
+    padding: 2px 10px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.submittask-body .submittask-form .submittask-input:focus{
+    box-shadow: 0 0 2px 2px rgba(105, 105, 253, 0.897);
+}
+
+.submittask-body .submittask-form .submittask-button{
+    height: 40px;
+    width:400px;
+    margin-top: 30px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.submittask-body .submittask-form .submittask-button:hover{
+    background-color: rgba(12, 12, 12, 0.918);
+    color: white;
+}

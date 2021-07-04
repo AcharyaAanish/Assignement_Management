@@ -23,6 +23,9 @@ const Login = () => {
     return (
         <div className="login">
             <form className="login-form" onSubmit={toogleDashboard}>
+            <div className="login-contain">
+                    <input type="text" className="login-input" placeholder="Role" id="role" required/>
+                </div>
                 <div className="login-contain">
                     <input type="email" className="login-input" placeholder="Email" id="email" required/>
                 </div>

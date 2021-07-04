@@ -11,6 +11,7 @@ import './csss/Viewtask.css'
 import './csss/Handletask.css'
 import Content from './components/Content.js';
 import Navbar from './components/Navbar.js';
+import Login from './components/Login.js';
 import Signup from './components/Signup.js';
 import Forget from './components/Forget.js';
 import Change from './components/Change.js';
@@ -25,6 +26,7 @@ function App() {
     <div className="App">
         <Navbar  />
         <Content />
+        {/* <Login/> */}
         
       <Switch>
        

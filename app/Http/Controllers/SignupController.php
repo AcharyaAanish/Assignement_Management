@@ -92,4 +92,15 @@ class SignupController extends Controller
     {
         //
     }
+
+    function login(Request $request)
+    {
+        $user = Signup::where('email',$request->email)->first();
+        if($user && Hash::check($request->password,$user->password)){
+            return $user;
+        }
+        else{
+            return ["error" =>"Email or password doesn't match"];
+        }
+    }
 }

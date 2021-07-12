@@ -23,3 +23,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::post('/given','GiveController@store');
 
 Route::post('/sign','SignupController@store');
+Route::post('/login','SignupController@login');
